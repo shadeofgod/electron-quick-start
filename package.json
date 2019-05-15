@@ -5,9 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "rebuild": "electron-rebuild",
-    "build64": "node-gyp rebuild --arch=x64",
-    "build32": "node-gyp rebuild --arch=ia32"
+    "rebuild": "electron-rebuild"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
