@@ -1,2 +1,10 @@
 node_modules
 build/
+dist/
+bin/
+.cache/
+
+.DS_Store
+
+*.db-shm
+*.db-wal

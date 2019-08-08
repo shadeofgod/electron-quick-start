@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "rebuild": "electron-rebuild"
+    "rebuild": "electron-rebuild",
+    "watch": "parcel watch index.html --target electron --public-url ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -19,9 +20,17 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "2.0.12",
-    "electron-rebuild": "^1.8.4"
+    "electron-rebuild": "^1.8.4",
+    "faker": "^4.1.0",
+    "less": "^3.9.0"
   },
   "dependencies": {
-    "nan": "^2.13.2"
+    "better-sqlite3": "^5.4.2",
+    "nan": "^2.13.2",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-window": "^1.8.5",
+    "react-window-infinite-loader": "^1.0.3"
   }
 }
